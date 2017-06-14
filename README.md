@@ -10,3 +10,25 @@ It will be divided in 5 Modules:
 - Admin module -> view all users jobs, give confirmations to the ones that need them.
 - Finance module -> does the financing, adds costs, makes payments, receives tuition fees, etc.
 - Admission module -> register children, access to modify their data.
+
+
+-----------Active accounts-----------
+
+Uname     |  Pword       |  Role
+-------------------------------------
+mbendo    | manjola123@  | Teacher
+mreka     |Newpass1234   |Admission
+malimucaj |foleza321@    |CEO
+-------------------------------------
+
+
+-------------------------------------------
+Database accessed through:
+
+http://stud-proj.epoka.edu.al/phpmyadmin/
+username: msinaj14
+password: ms518ora
+
+-----------------------------------------------------
+Web link: http://stud-proj.epoka.edu.al/~msinaj14/
+-----------------------------------------------------
