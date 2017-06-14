@@ -11,7 +11,6 @@ It will be divided in 5 Modules:
 - Finance module -> does the financing, adds costs, makes payments, receives tuition fees, etc.
 - Admission module -> register children, access to modify their data.
 
-
 -----------Active accounts-----------
 
 Uname     |  Pword       |  Role
@@ -20,7 +19,6 @@ mbendo    | manjola123@  | Teacher
 mreka     |Newpass1234   |Admission
 malimucaj |foleza321@    |CEO
 -------------------------------------
-
 
 -------------------------------------------
 Database accessed through:
