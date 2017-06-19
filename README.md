@@ -21,4 +21,4 @@ Web link: http://stud-proj.epoka.edu.al/~msinaj14/
 -----------------------------------------------------
 
 
-Note: The full source code file could not be uploaded because of its big size, also the full requirements documat had a size bigger than 25mb
+Note: The full source code file could not be uploaded because of its big size, also the full requirements document had a size bigger than 25mb
