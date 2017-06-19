@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foleza e Dijes</title>
+    
+    <link href="php/css1/foleza.min.css" rel="stylesheet">
+
+    
+    <link href="php/css1/custom.css" rel="stylesheet">
+    
+  
+<style type="text/css">
+.kamilo {
+    width: 50px;
+    height: 10px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;  
+    -webkit-animation-timing-function: linear;  
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  
+  /* Dropdown Button */
+.dropbtn {
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.show {display:block;}
+  </style>
+  <script>
+  
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+</head>
+<body>
+
+ <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="FolezaeDijesFlyer.pdf">
+                	<span class="glyphicon glyphicon-fire"></span> 
+                	Foleza e Dijes
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">
+                        <img src="php/images/shtepia.jpg" style="width:30px;height:30px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="RrethNesh.html">Vizioni ynë</a>
+                    </li>
+					
+					
+					<li class="dropdown">
+						<a href="#" onclick="myFunction()" class="dropbtn">Shërbimet <span class="caret"></span></a>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="mesimdhenie.html">Mësimdhënie</a>
+							<a href="kurse.html">Kurse dhe përkujdesje</a>
+							<a href="perkujdesje.html">Qendër Kujdestarie</a>
+						</div>
+					</li> 
+					
+					<li>
+                        <a href="kontakto.html">Kontakt</a>
+                    </li>     
+                    <li class="active">
+                        <a href="https://www.facebook.com/folezaedijes/">
+        		<img src="php/images/facebook.jpg" style="width:30px;height:30px;">
+                        </a>
+                    </li> 
+
+						<li>
+                        <a href="php/login.php" target="_blank">Hyni</a>
+                    </li>
+                </ul>
+
+
+				
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <br/>
+    <br/>
+<div class="kamilo">
+<img  src="php/images/kopshti2.jpg" />
+</div>
+<br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<hr/>
+<img src="php/images/blloku1.jpg" alt=" " style="width:1304px;height:604px;">
+
+<div class="small-print">
+        	<div class="container">
+        		<p style="color:rgb(0, 122, 204)"><a href="https://www.facebook.com/folezaedijes/">
+        		<img src="php/images/facebook.jpg" style="width:20px;height:20px;">
+        		</a> &nbsp; | &nbsp; <img src="php/images/cel.jpg" style="width:20px;height:20px;">
+        		+ (355) 69 27 07 855 &nbsp; 
+        		| &nbsp; <img src="php/images/email.jpg" style="width:20px;height:20px;"><a href="mailto:folezaedijes@gmail.com">folezaedijes@gmail.com</a></p>
+        		<p style="color:rgb(0, 122, 204)">Copyright &copy; Foleza e Dijes </p>
+        	</div>
+        </div>
+	</footer>
+
+	
+     <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/foleza.min.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script src="js/holder.min.js"></script>
+
+
+</body>
+<html>
