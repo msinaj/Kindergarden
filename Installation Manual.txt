@@ -1,0 +1,63 @@
+Installation Manual
+The “Foleza E Dijes” Kindergarten web application 
+can be deployed and used from your computer in two 
+ways: 
+1) You can use it locally only in your personal 
+computer. 
+2) You can use it everywhere, every time from any 
+computer which has internet connection by searching 
+it with the website name. 
+To be able to use the Kindergarten application in 
+your personal computer you should: 
+a) Install XAMPP (free downloadable software) 
+b) Unzip the mdl.zip file located in the accompanying 
+CD. 
+c) Copy and paste the folder as it is in the 
+folder named htdocs in the C:/xampp/htdocs 
+d) Open xampp control panel and start apache 
+and MySql servers. 
+e) Open your browser and go to->localhost/phpmyadmin
+f) There you import the mdl.sql file to set up 
+the database. 
+g) Now everything is ready and you can use the 
+application under the path 
+localhost/mdl/web
+*every time you want to use the application you 
+should start the apache and MySql servers *the application usage is only local. You cannot access the application and the data from another machine  
+
+For any problem in your installation you can 
+contact us via email: 
+
+Emails:		abali14@epoka.edu.al 
+		amaldi14@epoka.edu.al 
+		ihasmujaj14@epoka.edu.al 
+		msinaj14@epoka.edu.al 
+		malimucaj14@epoka.edu.al 
+
+		
+		
+
+
+-----------Active accounts-----------
+
+Uname     |  Pword       |  Role
+-------------------------------------
+mbendo    | manjola123@  | Teacher
+mreka     |Newpass1234   |Admission
+malimucaj |foleza321@    |CEO
+-------------------------------------
+
+
+-------------------------------------------
+Database accessed through:
+
+http://stud-proj.epoka.edu.al/phpmyadmin/
+username: msinaj14
+password: ms518ora
+
+-----------------------------------------------------
+Web link: http://stud-proj.epoka.edu.al/~msinaj14/
+-----------------------------------------------------
+Github link: https://github.com/msinaj/Kindergarden
+
+
