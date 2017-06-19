@@ -1,0 +1,48 @@
+body {
+	padding-top: 50px;
+	color: #E9CFEC;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+	
+.feature {
+	background: #E9CFEC linear-gradient(to bottom, #E3E4FA, #FDEEF4);
+	color: black;
+	}
+
+#feature-carousel {
+	min-height: 400px;
+	}
+
+#feature-carousel img {
+	margin: 0 auto;
+	}
+		
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background: #E9CFEC linear-gradient(to bottom, #E3E4FA, #FDEEF4);
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color:#FFF5EE ;
+	padding: 30px 0;
+}
+
+.feature,
+.page-intro,
+.article-intro,
+.small-print {
+	text-align: center;
+	
+	}

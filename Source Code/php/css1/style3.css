@@ -1,0 +1,133 @@
+		
+				.button {
+    			background-color: #00b33c;
+    			border: 2px solid #e7e7e7;
+    			color: white;
+   			 	padding: 7px 25px;
+    			text-align: center;
+    			text-decoration: none;
+    			display: inline-block;
+    			font-size: 18px;
+    			margin: 10px 2px;
+    			border-radius: 10px;
+			}
+				
+			.button:hover {
+				background-color: white;
+				color: #00b33c;
+			}
+		
+			.form_control{
+				margin: 5px 15px;
+				padding: 4px 10px 4px 10px;
+				border-radius: 3px;
+				font-size: 14px;
+				color: black
+			}
+			
+			.new{
+				
+				background-color: rgba(217, 217, 217,0.6);
+				width: 500px;
+			}
+			
+			font{
+				font-size: 12pt;
+				color: #00cc00;
+				text-shadow: 1px 1px rgb(94, 65, 34);
+				
+			}
+		
+		.navbuttons{
+				background-color: rgba(0, 0, 0,0.0);
+				border-style: hidden;
+    			color: grey;
+   			 	padding: 7px 25px;
+    			text-align: left;
+    			text-decoration: none;
+    			display: inline-block;
+    			font-size: 18px;
+    			margin: 10px 2px;
+		}
+		
+		.navbuttons:hover{
+			color: white;
+		}
+		
+		.navbuttons1{
+				background-color: rgba(0, 0, 0,0.0);
+				border-style: hidden;
+    			color: black;
+   			 	padding: 6px 18px;
+    			text-decoration: none;
+				text-align: left;
+    			display: inline-block;
+    			font-size: 14px;
+    			margin: 8px 2px;
+				
+		}
+		
+		.navbuttons1:hover{
+			color: white;
+			background-color: grey;
+			width: 100%;
+		}
+		
+		.tabl {
+			background-color: rgba(217, 217, 217,0.6);
+			 position: relative;
+			z-index: 1;
+			max-width: 500px;
+			margin: 90 auto 70px;
+			padding: 45px;
+			text-align: left;
+			color: #00cc00;
+			text-shadow: 0.5px 0.5px rgb(94, 65, 34);
+    
+		}
+		.tabl th, .tabl td {
+    padding: 12px;
+}
+
+.acr {
+    border-collapse: collapse;
+    position: center;
+			z-index: 1;
+			margin: 90 auto 70px;
+			padding: 45px;
+			text-align: left;
+    color:black;
+}
+
+.acr th, .acr td {
+    text-align: left;
+    padding: 8px;
+}
+
+.acr tr:nth-child(even){background-color: #f2f2f2}
+
+.acr th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+	
